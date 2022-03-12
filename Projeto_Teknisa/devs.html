@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lorayne Oliveira"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Padrões Web</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Desenvolvedores</h1>
+
+        <section>
+
+            <div id="name">
+                <label>Por nome:</label>
+                <input id="nameSearch" placeholder="Digite aqui..." type="text"/>
+            </div>
+
+            <div id="language">
+                <label>Por linguagem:</label>
+                <div id="condition">
+                    <label>
+                        <input id="1" type="radio" name="option" checked/>
+                        <span>E</span>
+                    </label>
+                    <label>
+                        <input id="2" type="radio" name="option"/>
+                        <span>OU</span>
+                    </label>
+                </div>
+            </div>
+
+            <div id="languageOptions">
+                <label>
+                    <input id="java" name="java" type="checkbox" checked/>
+                    <span>Java</span>
+                </label>
+                <label>
+                     <input id="js" name="js" type="checkbox" checked/>
+                      <span>JavaScript</span>
+                </label>
+                <label>
+                    <input id="php" name="php" type="checkbox" checked/>
+                    <span>PHP</span>
+                </label>
+                <label>
+                    <input id="phyton" name="phyton" type="checkbox" checked/>
+                     <span>Phyton</span>
+                </label>
+            </div>
+
+        </section>
+
+    </header>
+
+    <section class="result">
+
+        <div class="countResults">
+            <span id="countResult"></span>
+            <span>Resultados</span>
+        </div>
+
+        <div class="container">
+            <div class="card" id="36392ffd-052e-41cf-a3f5-e574bef212b2">
+                <div class="profilePicture">
+                    <img class="image" src="./images/36392ffd-052e-41cf-a3f5-e574bef212b2.jpg" alt="desenvolvedor"/>
+                </div>
+                <div class="profileDescription">
+                    <div class="info">
+                        <h3 class="card-title" name="username">Dulcilene Farias</h3>
+                        <small name="age">53</small>
+                        <small name="mail">dulcilene.farias@example.com</small>
+                        <span name="phone">(31) 9999-1545</span>
+                        <span name="github">https://github.com/greenwolf425</span>
+                        <span name="description">Graduado em Redes de Computadores pela COTEMIG</small>
+                        <span name="descriptionAbility">
+                            Experiências: 
+                            - Mobile
+                            - Análise de Sistemas
+                            - DevOps
+                            - Programação Web
+                            - Adm. de Banco de Dados (DBA)
+                            - Gerência de Projeto
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

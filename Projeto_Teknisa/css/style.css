@@ -189,20 +189,10 @@ h3 {
     flex: 1;
 }
 
-.modal .languages {
-    display: flex;
-    flex-direction: column;
-}
-.modal .languageDescription {
-    display: flex;
-    flex-direction: row;
-}
-.modal .modal-experience {
-    display: flex;
-    align-items: center;
-    flex: 1;
-}
-
 .modal .profileDescriptionModal > div > h3 { 
     margin-top: 10px;
+}
+
+*[name="age"]::after{
+    content: "Anos";
 }
